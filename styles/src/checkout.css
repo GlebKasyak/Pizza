@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css?family=Bitter:400,700&display=swap');
+
+body{
+    background: url(/img/order.jpg);
+    font-family: 'Bitter';
+}
+
+#order-window{
+    width: 800px;
+}
+
+.uk-heading{
+    margin: 20px 0;
+    color: white;
+    font-family: 'Bitter';
+}
+
+.uk-heading:hover{
+    color: #d50000;
+}
+
+fieldset{
+    border: none;
+}
+
+.uk-margin input, .uk-margin textarea, #send-order{
+    border-radius: 10px;
+}
+
+.uk-margin input:focus, .uk-margin textarea:focus{
+    color: white;
+    background: transparent;
+    border-color: white;
+    box-shadow: 0 0 6px white;
+}
+
+#send-order{
+    background: transparent!important;
+    border: 1px solid white;
+    color: white;
+}
+
+#send-order:hover{
+    background: white!important;
+    color: black;
+}
+
+#main-page{
+    color: white;
+    position: absolute;
+    right: 100px;
+    top: 0;
+    text-decoration: none;
+    font-size: 18px;
+}
